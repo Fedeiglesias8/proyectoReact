@@ -8,9 +8,8 @@ const NavBar = () => {
             <img  className='logo' src={logo} alt='logo' />
             <div className='botonesHeader'>
                 <button className='botonInicio'> Inicio</button>
-                <button className='botonRegulable'> Suspension Regulable</button>
-                <button className='botonFija'> Suspension fija</button>
-                <button className='botonEspirales'> Espirales</button>
+                <button className='botonNosotros'> Sobre Nosotros</button>
+                <button className='botonContactanos'> Contactanos </button>
             </div>
             <CartWidget />
         </nav>

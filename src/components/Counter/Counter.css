@@ -1,0 +1,45 @@
+.contador{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.contador h1{
+    margin-right: 25px;
+}
+
+.botonesContador{
+    display: flex;
+    flex-direction: column;
+}
+
+.botonesContador button{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: solid 1px #000000;
+}
+
+.botonAgregarCarrito{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.botonAgregarCarrito button{
+    padding: 10px;
+    color: #447CDD;
+    background-color: #ffffff;
+    font-size: 18px;
+    border: solid 1px #000000;
+    border-radius: 3px ;
+    cursor: pointer;
+}
+.botonAgregarCarrito button:hover {
+    background-color: #447CDD;
+    color: #ffffff;
+}

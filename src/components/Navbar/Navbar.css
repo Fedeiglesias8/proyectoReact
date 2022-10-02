@@ -1,7 +1,7 @@
 .header {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #808080;
 }
 
 .logo {
@@ -11,21 +11,21 @@
 }
 
 .botonesHeader {
-    margin-left: 120px;
+    margin-left: 190px;
 }
 
 .botonInicio,
-.botonRegulable,
-.botonFija {
-    margin-right: 60px;
+.botonNosotros,
+.botonContactanos {
+    margin-right: 90px;
 }
 
 .botonInicio,
-.botonRegulable,
-.botonFija,
-.botonEspirales {
+.botonNosotros,
+.botonContactanos {
     padding: 10px;
     color: #447CDD;
+    background-color: #ffffff;
     font-size: 18px;
     border: none;
     cursor: pointer;
@@ -33,5 +33,6 @@
 
 .botonesHeader button:hover {
     background-color: #447CDD;
-    color: white;
+    color: #ffffff;
+    border-radius: 3px ;
 }
