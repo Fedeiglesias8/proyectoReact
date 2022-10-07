@@ -1,18 +1,18 @@
-import { useState } from 'react';
 import './Counter.css';
+import { useState } from 'react';
 
-const Counter = ({onAdd}) => {
+const Counter = ({stock = 0, initial = 1, onAdd}) => {
 
-    const  [count, setCount] = useState(0)
+    const  [count, setCount] = useState(initial)
 
      const agregar = () =>{
-        if(count < 6){
+        if(count < stock){
             setCount (count + 1)
         }
      }
      
       const quitar = () =>{
-        if(count > 0){
+        if(count > 1){
             setCount (count - 1)
         }
       }
@@ -27,7 +27,7 @@ const Counter = ({onAdd}) => {
                      </div>
             </div>
             <div className='botonAgregarCarrito'>
-                <button  onClick={onAdd}> Agregar al carrito </button>
+                <button  onClick={() => onAdd(count)}> Agregar al carrito </button>
             </div>
         </div>
     )

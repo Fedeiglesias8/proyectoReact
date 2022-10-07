@@ -11,27 +11,30 @@
 }
 
 .botonesHeader {
-    margin-left: 190px;
+    margin-left: 160px;
 }
 
 .botonInicio,
-.botonNosotros,
-.botonContactanos {
-    margin-right: 90px;
+.botonSuspeRegulable,
+.botonSuspeFija {
+    margin-right: 60px;
 }
 
 .botonInicio,
-.botonNosotros,
-.botonContactanos {
+.botonSuspeRegulable,
+.botonSuspeFija,
+.botonEspriales {
     padding: 10px;
     color: #447CDD;
     background-color: #ffffff;
     font-size: 18px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
+
 }
 
-.botonesHeader button:hover {
+.botonesHeader :hover {
     background-color: #447CDD;
     color: #ffffff;
     border-radius: 3px ;

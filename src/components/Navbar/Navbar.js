@@ -1,15 +1,18 @@
 import './NavBar.css';
 import logo from './assets/logoChiappone.png'
 import CartWidget from '../CartWidget/CartWidget';
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
         <nav className='header'>
-            <img  className='logo' src={logo} alt='logo' />
+            <Link  to={'/'}><img  className='logo' src={logo} alt='logo' /></Link>
+            
             <div className='botonesHeader'>
-                <button className='botonInicio'> Inicio</button>
-                <button className='botonNosotros'> Sobre Nosotros</button>
-                <button className='botonContactanos'> Contactanos </button>
+                <Link  to={'/'} className='botonInicio'> Inicio</Link>
+                <Link  to={'/category/suspension fija'} className='botonSuspeFija'> Suspension Fija </Link>
+                <Link  to={'/category/suspension regulable'} className='botonSuspeRegulable'> Suspension Regulable</Link>
+                <Link  to={'/category/espirales'} className='botonEspriales'> Espirales </Link>
             </div>
             <CartWidget />
         </nav>
