@@ -1,0 +1,18 @@
+.cajaInputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.cajaInputs input{
+    margin-top: 25px;
+    width: 400px;
+    text-align: center;
+    transition: all 0.4s;
+}
+
+.cajaInputs input:focus{
+    transform: scale(1.1);
+}

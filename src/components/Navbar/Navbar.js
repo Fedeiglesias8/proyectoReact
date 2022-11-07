@@ -10,7 +10,7 @@ const NavBar = () => {
             
             <div className='botonesHeader'>
                 <Link  to={'/'} className='botonInicio'> Inicio</Link>
-                <Link  to={'/category/suspension fija'} className='botonSuspeFija'> Suspension Fija </Link>
+                <Link  to={'/category/Butacas'} className='botonButacas'> Butacas </Link>
                 <Link  to={'/category/suspension regulable'} className='botonSuspeRegulable'> Suspension Regulable</Link>
                 <Link  to={'/category/espirales'} className='botonEspriales'> Espirales </Link>
             </div>

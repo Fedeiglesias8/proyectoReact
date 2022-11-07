@@ -17,6 +17,7 @@ const Counter = ({stock = 0, initial = 1, onAdd}) => {
         }
       }
 
+     
     return(
         <div className='cajaContador'>
             <div className='contador'>

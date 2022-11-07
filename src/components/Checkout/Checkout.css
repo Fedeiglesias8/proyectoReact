@@ -1,0 +1,30 @@
+.botonesCheckout{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+.botonCancelar, .botonFinalizarCompra{
+    padding: 8px;
+    background-color: #447CDD;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px ;
+    text-decoration: none;
+}
+
+.botonCancelar:hover{
+    background-color: #ee5e5e;
+    color: #ffffff;
+}
+
+.botonFinalizarCompra:hover{
+    background-color: #87b859;
+}
+
+.spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}

@@ -1,0 +1,21 @@
+.contenedorItemCart {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    border-bottom: solid 1px #808080;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+
+.eliminarCart {
+    padding: 8px;
+    background-color: #447CDD;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px ;
+    cursor: pointer;
+}
+.eliminarCart:hover{
+    background-color: #ee5e5e;
+}
