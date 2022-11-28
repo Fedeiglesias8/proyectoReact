@@ -16,3 +16,17 @@
 .cajaInputs input:focus{
     transform: scale(1.1);
 }
+
+.botonConfirmarDatos{
+    margin-top: 40px;
+    padding: 8px;
+    background-color: #447CDD;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px ;
+    text-decoration: none;
+}
+
+.botonConfirmarDatos:hover{
+    background-color: #87b859;
+}
